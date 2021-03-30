@@ -61,8 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text(
                 'Hello world',
                 style: TextStyle(
-                    fontSize:
-                        getSp(12)), // spBlock represent 100% of defaultFontSize
+                    fontSize: getSp(12)), // 12 is the original design fontSize
               ),
             )
           ],
